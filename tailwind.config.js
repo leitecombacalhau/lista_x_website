@@ -36,9 +36,11 @@ export default {
       },
       screens: {
         wide: "1440px",
+        "mobile-1":"640px", 
       },
       backgroundImage: {
-        bg1: "url('assets/images/hero_bg.svg')",
+        bg1: "url('assets/images/hero.svg')",
+        "bg1*": "url('assets/images/hero_final2.svg')",
         bg2: "url('assets/images/text_placer.svg')"
       }
     },

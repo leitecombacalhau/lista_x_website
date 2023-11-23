@@ -1,20 +1,16 @@
-import parlamentoLogo from "../assets/images/parlamento_de_jovens_vertical.svg";
-
 const Hero = () => {
   return (
     <section
       id="a-nossa-lista"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
+      className="w-full flex xl:flex-row flex-col justify-center min-h-screen max-container"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p
-          className="text-xl font-montserrat text-accent font-medium"
-        >
+      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 max-sm:padding-x-2">
+        <p className="text-xl font-montserrat text-accent font-medium">
           #1 • Quem somos?
         </p>
-        <h1 className="mt-4 font-palanquin text-6xl max-sm:text-[72px] leading-none max-sm:leading-[82px] font-bold">
-          <span className="relative z-10 pr-10">
-            <span className="xl:whitespace-nowrap xl:bg-bg2 xl:bg-contain xl:bg-no-repeat xl:bg-right xl:pr-4 xl:h-[82px] xl:inline-block">
+        <h1 className="mt-4 font-palanquin text-6xl max-sm:text-[50px] mobile-1:text-[72px] leading-none mobile-1:leading-[82px] max-sm:leading-[56px] font-bold">
+          <span className="relative z-10 pr-10 whitespace-normal break-words">
+            <span className="xl:whitespace-nowrap xl:bg-bg2 xl:bg-cover xl:bg-no-repeat xl:bg-right xl:pr-4 xl:h-[82px] xl:inline-block">
               Agrupamento de Escolas
             </span>
             <br />
@@ -30,15 +26,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="flex-1 flex justify-center items-center p-40 xl:min-h-screen max-xl:py-40 bg-bg1 bg-cover">
-        <img
-          src={parlamentoLogo}
-          alt="Logo do PdJ"
-          width={610}
-          height={500}
-          className="object-contain relative z-10 w-3/4"
-        />
-      </div>
+      <div className="flex-1 flex xl:min-h-screen max-xl:py-[20vh] bg-bg1* bg-contain bg-no-repeat bg-center" />
     </section>
   );
 };

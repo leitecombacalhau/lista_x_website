@@ -28,11 +28,11 @@ const Nav = () => {
       <div className="w-full border-2 gradient-border fixed z-20 top-0" />
       <header className="absolute z-10 w-full">
         {/* DESKTOP MENU */}
-        <nav className="fixed top-0 left-0 right-0 flex justify-between items-center max-container bg-background p-4 select-none">
-          <a href="/" className="max-lg:pl-4 xl:pl-12">
+        <nav className="fixed top-0 left-0 right-0 flex justify-between items-center max-container bg-background pt-4 select-none">
+          <a href="/" className="pl-16 max-sm:pl-2 2xl:pl-0 2xl:pr-48 pb-2">
             <img src={headerLogo} alt="Logo" width={180} height={29} />
           </a>
-          <ul className="flex-1 flex justify-center items-center gap-32 max-lg:hidden">
+          <ul className="flex-1 flex justify-center items-center gap-32 2xl:gap-56 max-lg:hidden">
             {navLinks.map((item) => (
               <div key={item.label} className="flex items-center">
                 <li>
