@@ -1,0 +1,15 @@
+.image-rotator-container {
+  position: relative;
+}
+
+.rotatable-image {
+  transition: transform 0.5s ease-in-out; /* Smooth transition over 0.5 seconds */
+}
+
+.dropdown-arrow {
+  transition: transform 0.3s ease-in-out;
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
