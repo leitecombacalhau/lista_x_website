@@ -46,7 +46,8 @@ export default {
         bg3: "url('assets/images/25abril.png')",
         bg4: "url('assets/images/pdj1.png')",
         bg5: "url('assets/images/pdj.png')",
-        bg6: "url('assets/images/voto.png')"
+        bg6: "url('assets/images/voto.png')",
+        "bg6*": "url('assets/images/voto1.png')"
       }
     },
   },

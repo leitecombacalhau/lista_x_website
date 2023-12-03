@@ -45,7 +45,7 @@ const PorqueVotar = () => {
         </p>
       </div>
 
-      <div className="flex-1 flex max-xl:py-[18vh] bg-bg6 bg-contain bg-no-repeat bg-center" />
+      <div className="flex-1 flex max-xl:py-[18vh] bg-bg6 hover:bg-bg6* bg-contain bg-no-repeat bg-center" />
     </section>
   );
 };
