@@ -22,7 +22,7 @@ const ParlamentoJovens = () => {
               plural e participativa&quot;
             </i>
           </strong>
-          . A Lista 𝕏 certifica-se que as medidas que apresenta são exequíveis,
+          . A Lista 𝕏 certifica-se de que as medidas que apresenta são exequíveis,
           inovadoras, objetivas e estão em
           <strong> conformidade com o tema</strong>. <i>(clica na imagem adjacente
           para acaderes ao site do PdJ)</i>

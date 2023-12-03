@@ -20,7 +20,7 @@ const PorqueVotar = () => {
           dezembro. Será importante usufruíres do dia de reflexão (13 de
           dezembro), para meditares na escolha importante que te espera no dia
           seguinte. Para te facilitar esse processo, disponibilizamos&nbsp;
-          <a href="https://drive.google.com/file/d/1K0Z2GHpxr9w2KpnshSOfA2GE9jRBy3Cb/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+          <a href="/medidas" target="_blank" rel="noreferrer noopener">
             as medidas que defendemos
             <i> (clica aqui). </i>
           </a>

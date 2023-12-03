@@ -1,14 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista 𝕏 | ESFN | Parlamento dos Jovens</title>
+    <style>
+      .svgLoader {
+        animation: spin 0.5s linear infinite;
+        margin: auto;
+      }
+      .divLoader {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Tens dúvidas que fui eu a fazer isto?🤪🤙🏻📲 +351 939 966 818 -->
-    <div id="root"></div>
+    <div id="root">
+      <div class="divLoader">
+        <svg
+          class="svgLoader"
+          viewBox="0 0 100 100"
+          width="10em"
+          height="10em"
+          version="1.1"
+          id="svg4"
+          sodipodi:docname="wD3lC.svg"
+          inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+          xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+          xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:svg="http://www.w3.org/2000/svg"
+        >
+          <defs id="defs8" />
+          <sodipodi:namedview
+            id="namedview6"
+            pagecolor="#ffffff"
+            bordercolor="#999999"
+            borderopacity="1"
+            inkscape:pageshadow="0"
+            inkscape:pageopacity="0"
+            inkscape:pagecheckerboard="0"
+            showgrid="false"
+            inkscape:zoom="5.6568543"
+            inkscape:cx="19.091883"
+            inkscape:cy="64.346717"
+            inkscape:window-width="1920"
+            inkscape:window-height="1017"
+            inkscape:window-x="-8"
+            inkscape:window-y="-8"
+            inkscape:window-maximized="1"
+            inkscape:current-layer="svg4"
+          />
+          <path
+            ng-attr-d="{{config.pathCmd}}"
+            ng-attr-fill="{{config.color}}"
+            stroke="none"
+            d="M 92.688204,53.193061 C 86.136847,28.299566 69.862922,11.143161 50.150576,11.018161 29.47213,11.080661 11.001466,25.582877 7.3216404,53.611734 7.2002463,28.859725 26.211794,8.7005842 49.785119,8.5849708 73.358444,8.4693575 90.622266,28.971382 92.688204,53.193061"
+            fill="#51CACC"
+            id="path2"
+            style="
+              fill: #6cc7d6;
+              fill-opacity: 1;
+              stroke: none;
+              stroke-width: 1.06709;
+              stroke-linecap: butt;
+              stroke-linejoin: round;
+              stroke-miterlimit: 4;
+              stroke-dasharray: none;
+              stroke-opacity: 1;
+              paint-order: fill markers stroke;
+            "
+            sodipodi:nodetypes="cccsc"
+          >
+            <animateTransform
+              attributeName="transform"
+              type="rotate"
+              calcMode="linear"
+              values="0 50 51;360 50 51"
+              keyTimes="0;1"
+              dur="1s"
+              begin="0s"
+              repeatCount="indefinite"
+            />
+          </path>
+        </svg>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

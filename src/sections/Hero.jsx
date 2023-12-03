@@ -19,13 +19,13 @@ const Hero = () => {
           <span className="text-accent inline-block text-5xl">A Lista 𝕏</span>
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-[30px] mt-6 mb-2 sm:max-w-[32rem]">
-          A nossa equipa é composta por 10 elementos, enquadrados em mais que um
-          curso, o que nos confere com uma extensa panóplia de aptidões em
+          A nossa equipa é composta por 10 elementos, enquadrados em mais do que um
+          curso, o que nos confere uma extensa panóplia de aptidões em
           diversos ramos do conhecimento e artes: ciências socioeconómicas,
-          ciências naturais e formais, ciências aplicadas, artes e multimédia,
+          ciências naturais e formais, ciências aplicadas, <i>design</i> e multimédia,
           <i> etc. </i>
           Resolvemos mobilizar as nossas competências
-          para alterar aquilo que tem que ser alterado, e que, através de
+          para alterar aquilo que tem de ser alterado, e que, através de
           projetos como este, se encontra
           <strong> ao nosso e ao teu alcance</strong>!
         </p>

@@ -18,7 +18,7 @@ export const navLinks = [
       },
       {
         label: "As nossas medidas",
-        href: "https://drive.google.com/file/d/1K0Z2GHpxr9w2KpnshSOfA2GE9jRBy3Cb/view?usp=sharing",
+        href: "/medidas",
         blank: true,
       },
     ],
