@@ -69,7 +69,7 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-between text-background mt-24 max-sm:flex-col max-sm:items-center">
-        <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
+        <div className="flex flex-1 justify-start items-center gap-2 font-montserrat">
           <p>© LISTA 𝕏 2023. Todos os direitos reservados.</p>
         </div>
       </div>

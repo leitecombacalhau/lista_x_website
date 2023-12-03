@@ -1,4 +1,6 @@
-import Medidas from "../assets/docs/temp_medidas.pdf";
+import facebook from "../assets/icons/facebook.svg";
+import twitter from "../assets/icons/twitter.svg";
+import instagram from "../assets/icons/instagram.svg";
 
 export const navLinks = [
   {
@@ -16,7 +18,7 @@ export const navLinks = [
       },
       {
         label: "As nossas medidas",
-        href: Medidas,
+        href: "https://drive.google.com/file/d/1K0Z2GHpxr9w2KpnshSOfA2GE9jRBy3Cb/view?usp=sharing",
         blank: true,
       },
     ],
@@ -52,10 +54,6 @@ export const navLinks = [
     ],
   },
 ];
-
-import facebook from "../assets/icons/facebook.svg";
-import twitter from "../assets/icons/twitter.svg";
-import instagram from "../assets/icons/instagram.svg";
 
 export const footerLinks = [
   {

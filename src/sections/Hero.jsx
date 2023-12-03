@@ -24,8 +24,7 @@ const Hero = () => {
           diversos ramos do conhecimento e artes: ciências socioeconómicas,
           ciências naturais e formais, ciências aplicadas, artes e multimédia,
           <i> etc. </i>
-          Decidimos que não iríamos permanecer quietos a observar o declínio da
-          educação no nosso país e resolvemos mobilizar as nossas competências
+          Resolvemos mobilizar as nossas competências
           para alterar aquilo que tem que ser alterado, e que, através de
           projetos como este, se encontra
           <strong> ao nosso e ao teu alcance</strong>!
