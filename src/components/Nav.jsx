@@ -57,6 +57,8 @@ const Nav = () => {
                             <a
                               href={subitem.href}
                               className="font-montserrat leading-[30px] text-background text-lg font-medium"
+                              target={`${subitem?.blank ? "_blank" : "_self"}`}
+                              rel="noreferrer noopener"
                             >
                               {`• ${subitem.label}`}
                             </a>
@@ -86,7 +88,7 @@ const Nav = () => {
 
         {/* MOBILE MENU */}
         <div
-          className="hidden max-lg:block menu-container fixed top-0 right-0 h-full w-5/12 bg-accent p-4"
+          className="hidden max-lg:block menu-container fixed top-0 right-0 h-full max-mobile-2:w-full w-1/2 bg-accent p-4"
           style={{
             transform: rotation !== 0 ? "translateX(0)" : "translateX(100%)",
             transition: "transform 0.3s ease-in-out",
@@ -126,6 +128,7 @@ const Nav = () => {
                           <li key={subitem.label}>
                             <a
                               href={subitem.href}
+                              onClick={() => setRotation(0)}
                               className="font-montserrat leading-[30px] text-background text-lg font-medium"
                             >
                               {`• ${subitem.label}`}

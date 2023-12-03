@@ -37,11 +37,16 @@ export default {
       screens: {
         wide: "1440px",
         "mobile-1":"640px", 
+        "mobile-2":"430px", 
       },
       backgroundImage: {
         bg1: "url('assets/images/hero.svg')",
         "bg1*": "url('assets/images/hero_final2.svg')",
-        bg2: "url('assets/images/text_placer.svg')"
+        bg2: "url('assets/images/text_placer.svg')",
+        bg3: "url('assets/images/25abril.png')",
+        bg4: "url('assets/images/pdj1.png')",
+        bg5: "url('assets/images/pdj.png')",
+        bg6: "url('assets/images/voto.png')"
       }
     },
   },
