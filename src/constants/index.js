@@ -55,19 +55,41 @@ export const navLinks = [
   },
 ];
 
-export const footerLinks = [
+export const footerLinks_desktop = [
   {
     title: "Constituintes da Lista",
     links: [
       { name: "1. Miguel Pires" },
       { name: "2. Nelson Brízida" },
-      { name: "3. Karolina Órfão" },
+      { name: "3. Carolina Órfão" },
       { name: "4. Afonso Salgueiro" },
       { name: "5. Gonçalo Calvinho" },
     ],
   },
   {
     links: [
+      { name: "6. Isa Alves" },
+      { name: "7. Nuno Dinis" },
+      { name: "8. Laura Ferrari" },
+      { name: "9. Ariston Girão" },
+      { name: "10. Dinis Andrade" },
+    ],
+  },
+  {
+    title: "Quaisquer dúvidas",
+    links: [{ name: "lista.x@sapo.pt", href: "mailto:lista.x@sapo.pt" }],
+  },
+];
+
+export const footerLinks_mobile = [
+  {
+    title: "Constituintes da Lista",
+    links: [
+      { name: "1. Miguel Pires" },
+      { name: "2. Nelson Brízida" },
+      { name: "3. Carolina Órfão" },
+      { name: "4. Afonso Salgueiro" },
+      { name: "5. Gonçalo Calvinho" },
       { name: "6. Isa Alves" },
       { name: "7. Nuno Dinis" },
       { name: "8. Laura Ferrari" },

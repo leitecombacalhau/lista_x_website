@@ -1,4 +1,10 @@
+// import { useState } from "react";
+// import Voto from "../assets/images/voto.png";
+// import Voto1 from "../assets/images/voto1.png";
+
 const PorqueVotar = () => {
+  // const [votoImagem, setVotoImagem] = useState(Voto);
+
   return (
     <section className="w-full flex xl:flex-row flex-col justify-center max-container pt-[50px]">
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x max-sm:padding-x-2">
@@ -43,6 +49,15 @@ const PorqueVotar = () => {
         </p>
       </div>
 
+      {/* <div className="flex-1 flex max-xl:pt-10 ">
+        <img
+          id="vota_x"
+          src={votoImagem}
+          onMouseOver={() => setVotoImagem(Voto1)}
+          onMouseOut={() => setVotoImagem(Voto)}
+          className="w-full h-full"
+        />
+      </div> */}
       <div className="flex-1 flex max-xl:py-[18vh] bg-bg6 hover:bg-bg6* bg-contain bg-no-repeat bg-center" />
     </section>
   );

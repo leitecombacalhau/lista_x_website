@@ -1,7 +1,30 @@
+import { useEffect, useState } from "react";
 import footerLogo from "../assets/images/headerlogo.svg";
-import { footerLinks, socialMedia } from "../constants";
+import {
+  footerLinks_desktop,
+  footerLinks_mobile,
+  socialMedia,
+} from "../constants";
 
 const Footer = () => {
+  const [footerLinks, setFooterLinks] = useState(
+    window.innerWidth < 768 ? footerLinks_mobile : footerLinks_desktop
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setFooterLinks(
+        window.innerWidth < 768 ? footerLinks_mobile : footerLinks_desktop
+      );
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <footer className="max-container ">
       <a id="redes-sociais" className="anchor" />
